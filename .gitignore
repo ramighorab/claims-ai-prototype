@@ -1,0 +1,15 @@
+# Dependencies
+node_modules/
+
+# Next.js build output
+.next/
+out/
+
+# Environment variables - NEVER commit this
+.env.local
+.env
+
+# Misc
+.DS_Store
+*.pem
+npm-debug.log*
