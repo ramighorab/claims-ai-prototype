@@ -56,18 +56,6 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ---
 
-## Demo Mode (No API Key Required)
-
-The app includes a **Demo Mode** with three pre-loaded accident scenarios:
-
-- **Front-End Collision** — SUV with hood, bumper and headlight damage
-- **Side Swipe Incident** — Sedan with door and mirror damage
-- **Rear-End Impact** — Hatchback with bumper, trunk and tail light damage
-
-Toggle **Demo Mode** on the intake page to use pre-defined, reliable annotations without making any API calls. This is recommended for live demonstrations.
-
----
-
 ## Live AI Mode
 
 With your API key configured, upload any car damage photo and Claude will:
@@ -79,6 +67,20 @@ With your API key configured, upload any car damage photo and Claude will:
 **Important note on bounding boxes:** Claude's vision model returns approximate bounding box coordinates. These are good estimates but not pixel-perfect, as Claude is a general-purpose vision model rather than a dedicated object detection model. In a production system, a fine-tuned computer vision model (e.g. YOLO) would be used for precise localization, with Claude handling the semantic labelling and reasoning layer on top.
 
 ---
+
+## Demo Mode (No API Key Required)
+
+The app includes a **Demo Mode** with three pre-loaded accident scenarios:
+
+- **Front-End Collision** 
+- **Side Swipe Incident** 
+- **Rear-End Impact** 
+
+Toggle **Demo Mode** on the intake page to use pre-defined, annotations without making any API calls. 
+Basically, use this mode if you were not able to get the Live AI mode to run (e.g. if you couldn't configure the Anthropic key)
+
+---
+
 
 ## Project Structure
 
@@ -132,17 +134,29 @@ On adjuster approval, the nearest approved repair shop is selected based on the 
 
 
 ![Screenshot1](screenshots/Screenshot1.png)
+
 -----
+
 ![Screenshot2](screenshots/Screenshot2.png)
+
 -----
+
 ![Screenshot3](screenshots/Screenshot3.png)
+
 -----
+
 ![Screenshot4](screenshots/Screenshot4.png)
+
 -----
+
 ![Screenshot5](screenshots/Screenshot5.png)
+
 -----
+
 ![Screenshot6](screenshots/Screenshot6.png)
+
 -----
+
 ![Screenshot7](screenshots/Screenshot7.png)
 
 
