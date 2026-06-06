@@ -175,3 +175,6 @@ On adjuster approval, the nearest approved repair shop is selected based on the 
 ## License
 
 MIT — built as a take-home prototype. Not for production use.
+
+## Demo Video Recording:
+On Youtube: https://youtu.be/TZcnoxwEsVg
