@@ -44,7 +44,7 @@ Open `.env.local` and add your Anthropic API key:
 ANTHROPIC_API_KEY=sk-ant-your-key-here
 ```
 
-Get your key at: https://console.anthropic.com
+Get your key at: [https://console.anthropic.com](https://console.anthropic.com)
 
 ### 3. Run the development server
 
@@ -112,6 +112,7 @@ claims-ai-prototype/
 Bounding boxes show a numbered badge only, keeping the image readable even with multiple damaged areas. Full annotation details appear in the editable side panel.
 
 **Color-coded by severity**
+
 - 🟢 Green — Minor
 - 🟡 Amber — Medium
 - 🔴 Red — Severe
@@ -129,12 +130,15 @@ On adjuster approval, the nearest approved repair shop is selected based on the 
 
 ## Screenshots
 
-| Step | Description |
-|------|-------------|
-| Step 1 | Claim intake form with demo mode toggle |
-| Step 2 | Annotated image with numbered bounding boxes and editable side panel |
-| Step 3 | Line-item cost estimate from internal database |
-| Step 4 | Adjuster approval/rejection workflow with repair shop assignment |
+
+![Screenshot1](screenshots/Screenshot1.png)
+![Screenshot2](screenshots/Screenshot2.png)
+![Screenshot3](screenshots/Screenshot3.png)
+![Screenshot4](screenshots/Screenshot4.png)
+![Screenshot5](screenshots/Screenshot5.png)
+![Screenshot6](screenshots/Screenshot6.png)
+![Screenshot7](screenshots/Screenshot7.png)
+
 
 ---
 
